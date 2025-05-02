@@ -108,8 +108,6 @@ local window = Main:CreateWindow({
     Acrylic = true,
     Theme = "Dark"
 })
-window:SelectTab(1)
-
 local Tabs = {
     Main = window:AddTab({ Title = "Main", Icon = "box" }),
     OP = window:AddTab({ Title = "Exploit", Icon = "skull" }),
