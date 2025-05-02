@@ -136,11 +136,11 @@ do
     })
     Tabs.OP:AddButton({
         Title = "BTOOLS [BETA]",
-        Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/BaconBABA/script/refs/heads/main/btools_bfbvg"))() end
+        Callback = function() Main:Notify({ Title = "Notify", Content = "Soon!", Duration = 3 }) end
     })
     Tabs.OP:AddButton({
         Title = "DHEX",
-        Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/BaconBABA/script/refs/heads/main/dhex_for_bf.lua"))() end
+        Callback = function() Main:Notify({ Title = "Notify", Content = "Soon!", Duration = 3 }) end
     })
     Tabs.OP:AddButton({
         Title = "TEAM SPAM",
